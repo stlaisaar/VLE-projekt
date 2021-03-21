@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ee">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content=""> 
+        <meta name="author" content="">
+        <title>Broneeri</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <!-- icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+        <!-- minu CSS -->
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body>
+      <div class="main">
+        <!-- navigatsioon -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="index.html"><span class="mb-0 h3">Väikebussi rent</span></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="broneeri.html">Broneeri <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kontakt.html">Kontakt</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- sisu --->
+        <section style="margin: 40px 30px; ">
+          <h3 style="margin-bottom: 30px">Broneeri väikebuss</h3>
+          <div class=" d-flex justify-content-start flex-wrap align-items-center ">
+              <img src="https://besthqwallpapers.com/Uploads/11-4-2019/87214/volkswagen-transporter-van-4k-minibus-2019-cars-t6.jpg" alt="minivan" class="resize-img">
+              <div class=" d-flex flex-column justify-content-start align-items-start " style="margin-top: 10px;">
+                  <h4>VW Transporter 2015</h4>
+                  <p><i class="bi bi-diagram-3" style="margin-right: 4px;"></i> manuaal käigukast</p>
+                  <p><i class="bi bi-speedometer2" style="margin-right: 4px;"></i> 2.0 110 kw diisel</p>
+                  <p><i class="bi bi-people" style="margin-right: 4px;"></i> 8 + 1 kohta</p>
+                  <p><i class="bi bi-funnel" style="margin-right: 4px;"></i></i> 8 L / 100 km</p>
+                  <p><i class="bi bi-tags" style="margin-right: 4px;"></i> 50 € ööpäev</p>
+              </div>
+          </div>
+          <form style="margin-top: 20px;" action="?" method="post" enctype="text/plain" id="broneering">
+            <div class="form-row">
+              <div class="form-group col-xl-3 col-lg-3 col-mg-5 col-sm-5">
+                <label for="alguskuupäev">Alguskuupäev</label>
+                <input type="date" id="alguskuupäev" class="form-control datepicker" style="background-color: #c9c9c9;">
+              </div>
+              <div class="form-group col-xl-3 col-lg-3 col-mg-5 col-sm-5">
+                <label for="lõpukuupev">Lõpukuupäev</label>
+                <input type="date" id="lõpukuupev" class="form-control datepicker " style="background-color: #c9c9c9;">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-xl-6 col-lg-6 col-mg-10 col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Teie email" style="background-color: #c9c9c9;">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-xl-6 col-lg-6 col-mg-10 col-sm-10">
+                <textarea class="form-control" id="küsimused" rows="3" placeholder="Muud küsimused" style="background-color: #c9c9c9;"></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-xl-6 col-lg-6 col-mg-10 col-sm-10 text-center">
+                <input type="submit" class="btn btn-dark pl-5 pr-5" value="Broneeri">
+              </div>
+            </div>
+          </form>
+        </section>   
+      </div>
+        <!-- Footer -->
+        <footer class="bg-dark text-light d-flex justify-content-between align-items-center mt-0 mb-0" style="height: 100px; padding: 10px 40px;">
+            <ul class="list-unstyled mb-0" >
+              <li><a href="mailto:väikebuss@väikebuss.ee" class=" text-light "><i class="bi bi-envelope"> </i>väikebuss@väikebuss.ee</a></li>
+              <li><i class="bi bi-telephone"> </i>+372 5555 5555</li>
+            </ul>
+            <ul class="list-unstyled mb-0">
+                <li><a href="https://www.instagram.com/" class=" text-light "><h3><i class="bi bi-instagram"></i></h3></a></li>
+                <li><a href="https://www.facebook.com/" class=" text-light "><h3><i class="bi bi-facebook"></i></h3></a></li>
+            </ul>
+        </footer>
+        <!-- Footer -->    
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+  </body>
+</html>
